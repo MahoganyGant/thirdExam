@@ -6,7 +6,7 @@ public class Student extends Customer{
     private static long studentsCounter;
     private final double DISCOUNT = 0.05;
 
-    public Student(String name, ISize size, Cloth[] clothingItems) {
+    public Student(String name, Size size, Cloth[] clothingItems) {
         super(name, size, clothingItems);
         studentsCounter++;
         this.studentID = studentsCounter;

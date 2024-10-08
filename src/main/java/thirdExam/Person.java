@@ -1,10 +1,10 @@
 package thirdExam;
 
-public abstract class Person implements ISize{
+public abstract class Person{
     private String name;
-private ISize size;
+private Size size;
 
-    public Person(String name, ISize size) {
+    public Person(String name, Size size) {
         this.name = name;
         this.size = size;
     }
@@ -13,7 +13,7 @@ private ISize size;
         return name;
     }
 
-    public ISize getSize() {
+    public Size getSize() {
         return size;
     }
 

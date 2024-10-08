@@ -1,11 +1,11 @@
 package thirdExam;
 
-public class Cloth implements ISize{
+public class Cloth {
     private String name;
     private double price;
-private ISize size;
+private Size size;
 
-    public Cloth(String name, double price, ISize size) {
+    public Cloth(String name, double price, Size size) {
         this.name = name;
         this.price = price;
         this.size = size;
@@ -27,11 +27,11 @@ private ISize size;
         this.price = price;
     }
 
-    public ISize getSize() {
+    public Size getSize() {
         return size;
     }
 
-    public void setSize(ISize size) {
+    public void setSize(Size size) {
         this.size = size;
     }
 }

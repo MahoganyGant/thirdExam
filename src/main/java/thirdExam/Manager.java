@@ -4,7 +4,7 @@ public class Manager extends Employee {
 protected final double EXTRA_DISCOUNT = 0.15;
 private double salary;
 
-    public Manager(String name, ISize size, Cloth[] clothingItems) {
+    public Manager(String name, Size size, Cloth[] clothingItems) {
         super(name, size, clothingItems);
     }
 

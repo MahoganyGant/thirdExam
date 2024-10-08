@@ -1,7 +1,7 @@
 package thirdExam;
 
 public interface ISize {
-    char small = 'S';
-    char medium = 'M';
-    char large = 'L';
+  String small = "S";
+   String medium = "M";
+    String large = "L";
 }

@@ -4,8 +4,10 @@ public class HourlyEmployee extends Employee{
 private float hoursWorked;
 private double hourlyWage;
 
-    public HourlyEmployee(String name, ISize size, Cloth[] clothingItems) {
+    public HourlyEmployee(String name, Size size, Cloth[] clothingItems, float hoursWorked, double hourlyWage) {
         super(name, size, clothingItems);
+        this.hoursWorked = hoursWorked;
+        this.hourlyWage = hourlyWage;
     }
 
     public float getHoursWorked() {

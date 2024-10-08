@@ -13,6 +13,7 @@ return false;
         for( Cloth clothingItem : clothingItems){
             subTotal += clothingItem.getPrice();
         }
+        System.out.println(subTotal);
         return subTotal;
     }
 public static void printNamesOfPayableEntities(IPayable[]payableEntities){
